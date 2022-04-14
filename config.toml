@@ -1,0 +1,58 @@
+baseURL = "https://rokimiftah.github.io/"
+title = "Roki Miftah Kamaludin"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Roki Miftah Kamaludin"
+description = "Profile of Roki Miftah Kamaludin"
+keywords = "blog,developer,personal,engineer"
+info = "Sometimes I'm a Control Engineer, other times a Developer."
+avatarURL = "images/toon.png"
+dateFormat = "January 2, 2006"
+favicon_32 = "/images/icon.ico"
+since = 2019
+rtl = false
+colorScheme = "light"
+hideColorSchemeToggle = true
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://go.rokimiftah.id/github"
+target = "_blank"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 3
+url = "https://go.rokimiftah.id/twitter"
+target = "_blank"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://go.rokimiftah.id/linkedin"
+target = "_blank"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-2x fa-solid fa-envelope"
+weight = 5
+url = "mailto: me@rokimiftah.id"
+target = "_blank"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-2x fa-feed"
+weight = 6
+url = "https://blog.rokimiftah.id"
+target = "_blank"
